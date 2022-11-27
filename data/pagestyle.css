@@ -1,0 +1,276 @@
+.bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    min-width: 1000px;
+    z-index: -10;
+    zoom: 1;
+    background-color: #fff;
+    background: url(/ci/data/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-position: center 0;
+}
+
+.nmlabel {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+}
+
+.nmlabel img {
+    top: -5;
+}
+
+.article {
+    margin: 0px 20px 0px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+}
+
+.article-title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 32px;
+}
+
+.article-writer {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: grey;
+}
+
+.article-ending {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: darkgrey;
+    text-align: center;
+}
+
+.video-box {
+    width: 78%;
+    height: 65%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 1px 1px 1px 0px rgba(255, 255, 255, .5),
+        3px 3px 12px 0px rgba(0, 0, 0, .1),
+        1px 1px 6px 0px rgba(0, 0, 0, .1);
+}
+
+.image-box {
+    width: 100%;
+    height: auto;
+    margin: 5px auto 5px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*border-radius: 13px;*/
+    box-shadow: inset 1px 1px 1px 0px rgba(255, 255, 255, .5),
+        3px 3px 12px 0px rgba(0, 0, 0, .1),
+        1px 1px 6px 0px rgba(0, 0, 0, .1);
+}
+
+.image-box a img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    /*border-radius: 13px;*/
+}
+
+.pdshow {
+    width: auto;
+    height: auto;
+    font-family: 微软雅黑 Light;
+    font-size: 39px;
+    margin: 50px auto;
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
+    display: block;
+    margin: 0 auto;
+    border-radius: 13px;
+    box-shadow: inset 1px 1px 1px 0px rgba(255, 255, 255, .5),
+        3px 3px 12px 0px rgba(0, 0, 0, .1),
+        1px 1px 6px 0px rgba(0, 0, 0, .1);
+}
+
+.nmtitle {
+    font-family: 微软雅黑 Light;
+    font-size: 48px;
+    text-align: center;
+}
+
+.nmtitle2 {
+    font-family: 微软雅黑 Light;
+    font-size: 36px;
+    text-align: center;
+}
+
+.button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 26px;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 13px;
+    display: block;
+    margin: 0 auto;
+    background-color: rgba(255, 190, 222, 0.26);
+    backdrop-filter: saturate(100%) blur(2px);
+    -webkit-backdrop-filter: saturate(100%) blur(2px);
+    
+}
+
+.button:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.page-ending {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(153, 152, 152);
+    text-align: center;
+}
+
+.area-box {
+    width: 100%;
+    height: auto;
+    /*padding: 10px 24px;
+    border: none;*/
+    /*border-radius: 13px;*/
+    display: block;
+    margin: 10px 0px 5px 0px;
+    background-color: rgba(255, 190, 222, 0.26);
+    backdrop-filter: saturate(100%) blur(2px);
+    -webkit-backdrop-filter: saturate(100%) blur(2px);
+    box-shadow: inset 1px 1px 1px 0px rgba(255, 255, 255, .5),
+        3px 3px 12px 0px rgba(0, 0, 0, .1),
+        1px 1px 6px 0px rgba(0, 0, 0, .1);
+}
+
+.area-box a {
+    color: darkblue;
+    text-decoration: none;
+}
+
+.area-box a:hover {
+    text-decoration: underline;
+}
+
+.area-box a img {
+    width: 78%;
+    height: auto;
+    border-radius: 3px;
+    box-shadow: inset 1px 1px 1px 0px rgba(255, 255, 255, .5),
+        3px 3px 12px 0px rgba(0, 0, 0, .1),
+        1px 1px 6px 0px rgba(0, 0, 0, .1);
+}
+
+.area-box-filled {
+    width: 100%;
+    height: auto;
+    /*padding: 10px 24px;
+    border: none;*/
+    display: block;
+    margin: 0 auto;
+    background-color: rgba(255, 190, 222, 0.35);
+    backdrop-filter: saturate(100%) blur(2px);
+    -webkit-backdrop-filter: saturate(100%) blur(2px);
+    box-shadow: inset 1px 1px 1px 0px rgba(255, 255, 255, .5),
+        3px 3px 12px 0px rgba(0, 0, 0, .1),
+        1px 1px 6px 0px rgba(0, 0, 0, .1);
+}
+
+.area-box-filled a {
+    color: darkblue;
+    text-decoration: none;
+}
+
+.area-box-filled a:hover {
+    text-decoration: underline;
+}
+
+.area-box-filled a img {
+    width: 78%;
+    height: auto;
+    border-radius: 3px;
+    box-shadow: inset 1px 1px 1px 0px rgba(255, 255, 255, .5),
+        3px 3px 12px 0px rgba(0, 0, 0, .1),
+        1px 1px 6px 0px rgba(0, 0, 0, .1);
+}
+
+.area-box-filled ul {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    color: grey;
+    margin: 0 6% 0 6%;
+    list-style-type: none;
+}
+
+.area-box-filled ul li {
+    margin: 20px 0 10px 0;
+}
+
+.area-box-filled ul li a:hover {
+    text-decoration: underline;
+}
+
+.image-box-m {
+    width: 85%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 13px;
+    box-shadow: inset 1px 1px 1px 0px rgba(255, 255, 255, .5),
+        3px 3px 12px 0px rgba(0, 0, 0, .1),
+        1px 1px 6px 0px rgba(0, 0, 0, .1);
+}
+
+.image-box-m img {
+    border-radius: 13px;
+}
+
+.image-box-mm {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*border-radius: 13px;*/
+    box-shadow: inset 1px 1px 1px 0px rgba(255, 255, 255, .5),
+        3px 3px 12px 0px rgba(0, 0, 0, .1),
+        1px 1px 6px 0px rgba(0, 0, 0, .1);
+}
+
+.image-box-mm img {
+    border-radius: 13px;
+}
+
+.linklist {
+    margin: 0px 6% 0px 6%;
+}
+
+.linklist ul {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    color: black;
+}
+
+.linklist ul li {
+    margin: 0px auto 16px auto;
+}
+
+.linklist ul li a {
+    color: darkblue;
+    text-decoration: none;
+}
+
+.linklist ul li a:hover {
+    text-decoration: underline;
+}
