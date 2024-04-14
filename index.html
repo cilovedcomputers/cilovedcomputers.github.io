@@ -1,0 +1,76 @@
+<!--HonorVision™ Learning-time Smart Panel Preview (Web)
+Powered By the DJSC Team.-->
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="自习课智慧面板,Honorvision™,耀界™,DJSC 软件,DJSC Software,DJSC团队,大伟帝国,江苏省常熟中学,强基英才2班,羟基2班">
+    <meta name="description" content="耀界™自习课智慧面板 Powered By the DJSC Team. 大伟帝国版权所有，侵权必究。">
+    <meta name="author" content="小小辞儿 (Yuxin Wang)">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="pragma" content="no-store" />
+    <meta http-equiv="content-type" content="no-store, must-revalidate" />
+    <link rel="icon" href="assets/icon/favicon.ico" size="16x16" />
+    <title>耀界™自习课智慧面板 (测试版) - DJSC Team | 大伟帝国</title>
+    <script src="assets/js/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" importance="high" />
+</head>
+
+<body>
+    <div id="page-onload-box"><img src="assets/img/loading.gif" alt="Loading..." />正在初始化……</div>
+    <div id="background-box"></div>
+    <script src="assets/js/themeloader.js"></script>
+    <div id="navbar">
+        <a href="https://world2.xiaoxiaoci.top/djsc/" target="_blank" title="大教圣辞团队">
+            <h6>DJSC</h6>
+        </a>
+        <a href="https://world2.xiaoxiaoci.top/djsc/home/" target="_blank" title="团队主页">团队主页</a>
+        <a href="https://world2.xiaoxiaoci.top/djsc/products/" target="_blank" title="团队项目">团队项目</a>
+        <a href="https://world2.xiaoxiaoci.top/djsc/products/apps-online" target="_blank" title="在线应用">在线应用</a>
+    </div>
+    <div id="timer-box">
+        <p id="time-label">时间</p>
+        <p id="date-label">日期</p>
+        <p class="info-label" id="monitor">本地接口未正常启用。(2)</p>
+        <p class="info-label" id="tip">自习时间，保持安静！</p>
+    </div>
+    <script src="assets/js/timer.js"></script>
+    <div id="progress-line"></div>
+    <div id="notify-box">
+        <p id="notify-box-title">公告栏</p>
+        [空]
+    </div>
+    <script src="assets/js/AppListener.js"></script>
+    <p id="info-box"><strong>耀界™自习课智慧面板 Beta</strong><br />版本 获取中<br />设备 ID：无法获取：本地接口未正常启用。(2)<br />Powered By the
+        DJSC Team. 大伟帝国版权所有
+        侵权必究</p>
+    <div id="board">
+        <h2>今日作业</h2>
+        <p id="homework">[空]</p>
+        <button type="button" id="edit-button" onclick="edit()"><img src="assets/img/edit.svg"
+                alt="Edit" /><span>编辑作业</span></button>
+    </div>
+    <script src="assets/js/homework-edit.js"></script>
+    <script src="assets/js/notify.js"></script>
+    <div id="icon-box"><img src="assets/img/info.svg" alt="[info]" title="应用信息" onclick="show_not_aviliable()" />
+        <img src="assets/img/themes.svg" alt="[themes]" title="主题设置" onclick="theme_setup()" />
+        <img src="assets/img/settings.svg" alt="[settings]" title="应用设置" onclick="show_not_aviliable()" />
+    </div>
+    <div id="blur-box">
+        <div id="theme-setup-window"><strong>主题选择</strong>
+            <div class="theme-preview-box">
+                <a href="./index.html?theme=default" title="default"><img src="themes/default/preview.png" alt="default" />默认</a>
+                <a href="./index.html?theme=class2" title="class2"><img src="themes/class2/preview.png" alt="class2" />强基2班</a>
+                <a href="./index.html?theme=wyj1" title="wyj1"><img src="themes/wyj1/preview.png" alt="wyj1" />王彦杰1</a>
+                <a href="./index.html?theme=wyj2" title="wyj2"><img src="themes/wyj2/preview.png" alt="wyj2" />王彦杰2</a>
+                <a href="./index.html?theme=yl" title="yl"><img src="themes/yl/preview.png" alt="yl" />袁英俊</a>
+            </div>
+            <a href="./index.html" title="返回应用">返回应用→</a>
+        </div>
+        <div id="error-window"><strong>功能不可用</strong>该功能目前正在开发中，敬请期待~ヾ(≧▽≦*)o<a href="./index.html" title="返回应用">返回应用→</a></div>
+    </div>
+    <script src="assets/js/function.js"></script>
+</body>
+
+</html>
